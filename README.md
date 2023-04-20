@@ -39,4 +39,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Real Estate App
 
-image.png
+![image](https://user-images.githubusercontent.com/92843098/233233130-c6a3cc54-9831-4d30-bd35-7a42cd911cd7.png)
