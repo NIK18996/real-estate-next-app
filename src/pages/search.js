@@ -5,7 +5,7 @@ import Image from "next/image";
 import {BsFilter} from "react-icons/bs"
 import SearchFilters from "../../components/SearchFilters";
 import Property from "../../components/Property";
-import noresult from "assets/images/noresult.svg"
+import NoResult from "assets/images/NoResult.svg"
 import { baseUrl, fetchApi } from "../../utils/fetchApi";
 
 const Search = ({properties}) => {
@@ -38,7 +38,7 @@ const Search = ({properties}) => {
             </Flex>
             {properties.length === 0 && (
                 <Flex justifyContent="center" alignItems="center" flexDirection="column">
-                    <Image src={noresult} alt="no results"/>
+                    <Image src={NoResult} alt="no results"/>
                     <Text fontSize="2xl" marginTop="3" color="gray.600">No Results Found</Text>
                 </Flex>
             )}

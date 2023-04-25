@@ -7,7 +7,7 @@ import {MdCancel} from "react-icons/md"
 const SearchFilters = () => {
     return (
         <>
-        Not Found
+        Results Not Found
         </>
     )
 }
