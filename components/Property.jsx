@@ -5,12 +5,13 @@ import { FaBed, FaBath } from "react-icons/fa"
 import {BsGridFill} from "react-icons/bs"
 import {GoVerified} from "react-icons/go"
 import millify from "millify";
+import DefaultImage from "assets/images/house.jpg"
 
 const Property = ({property: {externalId, coverPhoto, area, price, agency, rentFrequency, isVerified, rooms, baths, title}}) => (
     <Link href={`/property/${externalId}`} passHref>
         <Flex flexWrap="wrap" w={410} p={5} paddingTop={0} justifyContent="flex-start" cursor="pointer">
-            <Box objectFit="cover">
-                <Image src={coverPhoto.url} width="420" height="240" alt="Cover Photo"/>
+            <Box>
+                <Image src={coverPhoto ? coverPhoto.url : DefaultImage} width="420" height="240" alt="Cover Photo"/>
             </Box>
             <Box w="full">
                 <Flex justifyContent="space-between" alignItems="center" paddingTop="2">
