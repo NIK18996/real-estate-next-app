@@ -7,8 +7,8 @@ import {GoVerified} from "react-icons/go"
 import millify from "millify";
 import DefaultImage from "assets/images/House.jpg"
 
-const Property = ({property: {externalId, coverPhoto, area, price, agency, rentFrequency, isVerified, rooms, baths, title}}) => (
-    <Link href={`/property/${externalId}`} passHref>
+const Property = ({property: {externalID, coverPhoto, area, price, agency, rentFrequency, isVerified, rooms, baths, title}}) => (
+    <Link href={`/property/${externalID}`} passHref>
         <Flex flexWrap="wrap" w={410} p={5} paddingTop={0} justifyContent="flex-start" cursor="pointer">
             <Box>
                 <Image src={coverPhoto ? coverPhoto.url : DefaultImage} width="420" height="240" alt="Cover Photo"/>
@@ -23,7 +23,7 @@ const Property = ({property: {externalId, coverPhoto, area, price, agency, rentF
                         <Avatar size="sm" src={agency.logo.url}></Avatar>
                     </Box>
                 </Flex>
-                <Flex justifyContent="space-between" paddingTop="2" alignItems="center" color="#39ace7">
+                <Flex justifyContent="space-between" paddingRight="20" paddingTop="2" alignItems="center" color="#39ace7">
                 {rooms} <FaBed /> | {baths} <FaBath /> | {millify(area)} sqft <BsGridFill />
                 </Flex>
                 <Flex paddingTop="2">
