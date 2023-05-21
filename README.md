@@ -52,3 +52,9 @@ The repository includes the source code, configuration files, and assets require
 
 ## Home Page
 ![image](https://user-images.githubusercontent.com/92843098/233233130-c6a3cc54-9831-4d30-bd35-7a42cd911cd7.png)
+
+## Property Search and Filters
+![image](https://github.com/NIK18996/real-estate-next-app/assets/92843098/62674585-27d4-419c-a30a-389d6bbb47a6)
+
+## Property Details
+![image (2)](https://github.com/NIK18996/real-estate-next-app/assets/92843098/0e1d4713-1650-47e2-ad88-3c4de14a9e36)
