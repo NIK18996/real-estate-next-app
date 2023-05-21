@@ -38,5 +38,17 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Real Estate App
+# Description:
+This GitHub repository contains a web application built using Next.js, a React-based framework, designed to serve as a platform for users to search, filter, and sort real estate properties. The application integrates with the Bayut API, accessed through Rapid API, to fetch real estate data, including property details such as price, location, amenities, and images. The UI components are created and styled using Chakra UI, a component library, resulting in a responsive and visually appealing user interface.
 
+# Key Features:
+* Next.js Framework: The web application is built using Next.js, which provides a powerful foundation for building React applications with server-side rendering, static site generation, and other performance optimizations.
+* Real Estate Data Integration: The application utilizes the Bayut API, accessed through Rapid API, to fetch real estate data and provide comprehensive property details to users.
+* Responsive UI Components: Chakra UI is leveraged to create and style various components, including a search bar, property cards, and filter options. This ensures a visually appealing and user-friendly interface that adapts to different screen sizes.
+* Improved Performance: The application employs the getStaticProps feature in Next.js, which optimizes page rendering by pre-fetching real estate data and passing it as props to the page components. This approach enhances the application's performance and delivers a better user experience.
+
+# Additional Information:
+The repository includes the source code, configuration files, and assets required to run the web application. Detailed documentation may be provided, including instructions for setting up the development environment, installing dependencies, and deploying the application. It is recommended to review the documentation to understand the project structure, code organization, and any additional considerations for running the application.
+
+# Home Page
 ![image](https://user-images.githubusercontent.com/92843098/233233130-c6a3cc54-9831-4d30-bd35-7a42cd911cd7.png)
